@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Cards
+  m_EditorClassIdentifier: Assembly-CSharp::CardsDataSO
+  cards:
+  - cardName: Random Card Name
+    cost: 5
+    attack: 3
+    hp: 7
+    illustration: https://picsum.photos/200
+    description: "Fulfil player\u2019s hand with 4-6 cards in a fan-way. (arc) The
+      number of cards should be determined at random at the start of the game"
+  - cardName: Troll
+    cost: 5
+    attack: 3
+    hp: 2
+    illustration: https://picsum.photos/200
+    description: "Create an UI button at the center of the screen to randomly (-2\u21929)
+      change 1 random value of 1 card sequentially"
+  - cardName: Rabbit
+    cost: 8
+    attack: 4
+    hp: 7
+    illustration: https://picsum.photos/200
+    description: Bind Attack, Health and mana properties to UI. Changing those values
+      from code must be reflected on card UI with counter animation
+  - cardName: Table
+    cost: 4
+    attack: 7
+    hp: 3
+    illustration: https://picsum.photos/200
+    description: "If some card\u2019s HP drop below 1 - remove this card from player\u2019s
+      hand. (dont forget to     reposition other cards, use tweens to make it smooth)"
+  - cardName: Strange Something
+    cost: 8
+    attack: 5
+    hp: 2
+    illustration: https://picsum.photos/200
+    description: "Player can drag card and drop it on the middle of table (use drop
+      panel of any size) Card moves back to player\u2019s hand if it\u2019s not dropped
+      over the drop panel."
